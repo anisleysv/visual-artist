@@ -1,7 +1,7 @@
 <?php
 
 // configure
-$from = 'address@asvweb.us.tld'; // Replace it with Your Hosting Admin email. REQUIRED!
+$from = 'https://script.google.com/macros/s/AKfycby3Y49EaYZfl4jzHSe8U3z2zOawtnTmYR8DqE2Y/exec'; // Replace it with Your Hosting Admin email. REQUIRED!
 $sendTo = 'eduard.visualartist@gmail.com'; // Replace it with Your email. REQUIRED!
 $subject = 'New message from Eduardo Visual-Artist Portfolio contact form';
 $fields = array('name' => 'Name', 'email' => 'Email', 'subject' => 'Subject', 'message' => 'Message'); // array variable name => Text to appear in the email. If you added or deleted a field in the contact form, edit this array.
