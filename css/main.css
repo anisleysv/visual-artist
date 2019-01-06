@@ -1344,7 +1344,6 @@ button.btn:hover:after, a.btn:hover:after {
 .contact {
   position: relative;
   overflow: hidden;
-  color: #ff9966;
 }
 
 .contact .part-info {
@@ -1390,7 +1389,7 @@ button.btn:hover:after, a.btn:hover:after {
   font-size: 12px;
 }
 
-.contact .contact-form input, .contact .contact-form textarea, .thankyou_message {
+.contact .contact-form input, .contact .contact-form textarea {
   background: transparent;
   padding: 10px 15px;
   border-radius: 0;
@@ -1413,6 +1412,18 @@ button.btn:hover:after, a.btn:hover:after {
   text-align: center;
   background-color: #7F4C33;
   border: 1px solid #777;
+}
+
+#thankyou_message{
+  display: none;
+}
+
+#thankyou_message h2{
+  background: transparent;
+  padding: 10px 15px;
+  text-align: center;
+  font-size: 24px;
+  color: #ff9966;
 }
 
 /* -------------------------------------------------------
