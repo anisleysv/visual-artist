@@ -1344,6 +1344,7 @@ button.btn:hover:after, a.btn:hover:after {
 .contact {
   position: relative;
   overflow: hidden;
+  color: #ff9966;
 }
 
 .contact .part-info {
@@ -1389,7 +1390,7 @@ button.btn:hover:after, a.btn:hover:after {
   font-size: 12px;
 }
 
-.contact .contact-form input, .contact .contact-form textarea {
+.contact .contact-form input, .contact .contact-form textarea, .thankyou_message {
   background: transparent;
   padding: 10px 15px;
   border-radius: 0;
